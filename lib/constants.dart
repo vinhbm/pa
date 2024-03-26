@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
-Color kDarkGreenColor = const Color(0xFF184A2C);
-Color kGinColor = const Color(0xFFE5F0EA);
-Color kSpiritedGreen = const Color(0xFFC1DFCB);
-Color kFoamColor = const Color(0xFFEBFDF2);
-Color kGreyColor = Colors.grey.shade600;
+// Colors that we use in our app
+const kPrimaryColor = Color(0xFF0C9869);
+const kTextColor = Color(0xFF3C4046);
+const kBackgroundColor = Color(0xFFF9F8FD);
 
-TextStyle kBillTextStyle = GoogleFonts.poppins(
-  color: kDarkGreenColor,
-  fontSize: 15.0,
-);
+const double kDefaultPadding = 20.0;
